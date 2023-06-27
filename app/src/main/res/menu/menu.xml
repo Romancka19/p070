@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/m1"
+        android:title="найти кинотеатры"
+        android:visible="true" />
+    <item
+        android:id="@+id/m2"
+        android:title="найти фильмы" />
+    <item
+        android:id="@+id/m3"
+        android:title="новый кинотеатр" />
+    <item
+        android:id="@+id/m4"
+        android:title="новый фильм" />
+    <item
+        android:id="@+id/m5"
+        android:title="Обновление кинотеатров" />
+    <item
+        android:id="@+id/m6"
+        android:title="Обновление фильмов" />
+</menu>

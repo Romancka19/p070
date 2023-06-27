@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/editTextMask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TableRow
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:id="@+id/tvButtonF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onclickF"
+
+            android:text="@string/filter">
+        </Button>
+        <Button
+            android:id="@+id/tvButtonU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onclickU"
+            android:enabled="false"
+            android:text="@string/update">
+        </Button>
+        <Button
+            android:id="@+id/tvButtonD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onclickD"
+            android:enabled="false"
+            android:text="@string/delete">
+        </Button>
+
+    </TableRow>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ProgressBar>
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="">
+        </TextView>
+        <ListView
+            android:id="@+id/lvMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </ListView>
+    </LinearLayout>
+</TableLayout >

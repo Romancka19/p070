@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">p070</string>
+    <string name="start">Start</string>
+    <string name="filter">Фильтр</string>
+    <string name="update">Обновить</string>
+    <string name="delete">Удалить</string>
+</resources>
